@@ -1,0 +1,6 @@
+Keras==2.3.1
+tensorflow==1.15.4
+h5py==2.10
+opencv-python==4.2.0.34
+matplotlib==3.3.2
+Pillow==8.0.1

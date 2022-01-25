@@ -1,0 +1,26 @@
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+
+data/fonts/
+data/corpus/**
+data/bg/
+
+# For example
+!data/fonts/chn/msyh.ttc
+!data/fonts/eng/Hack-Regular.ttf
+!data/bg/paper*.png
+!data/bg/背景.png
+
+# For example
+!data/corpus/The Hitchhiker's Guide to the Galaxy.txt
+
+libs/gpu/GpuWrapper.cpp
+libs/gpu/*.so
+libs/gpu/build/
+
+output/
+.caches
+

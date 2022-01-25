@@ -1,0 +1,9 @@
+Cython
+opencv-python
+pillow
+numpy
+matplotlib
+fontTools
+tenacity
+easyDict
+pyyaml==5.1
