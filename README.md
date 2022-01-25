@@ -56,6 +56,7 @@
 ## 生成语料库
 
 ```
+cd src/prepare_data
 python3 kxzd_convert.py
 python3 kxzd_char_std.py
 ```
