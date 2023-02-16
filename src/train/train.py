@@ -153,7 +153,7 @@ if __name__ == '__main__':
         print('done!')
 
     train_loader = gen('../../data/train_data/combined_train.txt', '../../data/train_data', batchsize=batch_size, maxlabellength=maxlabellength, imagesize=(img_h, img_w))
-    test_loader = gen('../../data/train_data/combined_train.txt', '../../data/train_data', batchsize=batch_size, maxlabellength=maxlabellength, imagesize=(img_h, img_w))
+    test_loader = gen('../../data/train_data/combined_test.txt', '../../data/train_data', batchsize=batch_size, maxlabellength=maxlabellength, imagesize=(img_h, img_w))
 
     checkpoint = ModelCheckpoint(filepath='./output/ocr-densenet-{epoch:02d}-{loss:.4f}-{val_loss:.4f}-{val_accuracy:.4f}.weights', 
         monitor='val_loss', save_best_only=False, save_weights_only=True)
